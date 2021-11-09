@@ -1,21 +1,22 @@
 $("#form_to").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-
-    var form = $(form_to);
+	e.preventDefault();
+    var form = $(this);
     var url = 'https://ancor-group.com/happynewyear/newy.php';
+    var email_val = $(".form_input").val();
+	$.post(url, {akey : 'asdLAKSDMlwq9384asor39qalaflanasal', email : email_val}, function(data){
+		console.log(data.lang);
+		if(data.lang == "EN"){
+			window.location.href = 'https://ancor-group.com/happynewyear/en/';
+		}else if(data.lang == "RU"){
+			$(".intro_content h2").css('display','none');
+			$("#form_to").css('display','none');
+			$(".scrolldown").css('display','block');
+		}else{
+			alert (
+				"Email you have entered - " + email_val + ". You don`t have access to this page. Sorry."
+				+ "Вы ввели - " + email_val + ". К сожалению у этого email нет доступа."
+				);
+		}
+	});
     
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: "{akey : 'asdLAKSDMlwq9384asor39qalaflanasa', email : 's.annenkov@ancor.ru'}",
-           contentType: "application/json; charset=utf-8",
-            dataType: "json",
-           success: function(data)
-           {
-              console.log(data); // show response from the php script.
-           }
-         });
-
-    
-});
+}); 
