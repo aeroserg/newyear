@@ -52,33 +52,34 @@ form {
 }
 .form_input {
     height: 30px;
-    font-size: 20px;
+    font-size: 15px;
     width: 300px;
-    background-color: #f54d2e;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(122, 122, 122);
     border-radius: 1px;
-    border: solid #f54d2e 2px;
+    border: solid #ffffff 2px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
+    display: inline-block;
 }
 .form_input::placeholder{
-    color: #fff;
+    color: rgb(128, 128, 128);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .form_button {
-    background-color: #f54d2e;
+    background-color: #ffffff;
     justify-content: center;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 2%;
-    color: rgb(255, 255, 255);
+    color: rgb(126, 126, 126);
     border-radius: 1px;
-    border: solid #f54d2e 2px;
+    border: solid #ffffff 2px;
     height: 36px;
-    display: flex;
+    display: inline-block;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .scrolldown {
+    display: none;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
