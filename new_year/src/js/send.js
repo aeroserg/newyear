@@ -3,7 +3,7 @@ $("#form_to").submit(function(e) {
     e.preventDefault(); // avoid to execute the actual submit of the form.
 
     var form = $(form_to);
-    var url = 'https://ancor.ru/feedback/newy.php';
+    var url = 'https://ancor-group.com/happynewyear/newy.php';
     
     $.ajax({
            type: "POST",
