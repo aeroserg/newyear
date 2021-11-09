@@ -13,7 +13,7 @@ $("#form_to").submit(function(e) {
             dataType: "json",
            success: function(data)
            {
-               alert(data); // show response from the php script.
+              console.log(data); // show response from the php script.
            }
          });
 
