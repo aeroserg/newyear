@@ -21,6 +21,16 @@ body {
     left: 0;
     z-index: -1;
 }
+.video::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.712);
+}
 .intro_h1 {
     font-family: 'Noto Serif Display', serif;
     color: #fff;
