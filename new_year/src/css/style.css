@@ -28,8 +28,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.712);
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .intro_h1 {
     font-family: 'Noto Serif Display', serif;
@@ -96,6 +96,7 @@ form {
     font-size: 20px;
     color: #fff;
     margin-top: 40px;
+    z-index: 1;
 }
 .r_logo {
     position: absolute;
@@ -190,10 +191,14 @@ form {
 }
 
 .tree {
-    width: 50vh;
+    width: 23%;
     position: absolute;
     bottom: 10px;
     z-index: 7;
+    margin-left: 50vw;
+}
+path{
+    cursor: pointer;
 }
 .motnya {
     width: 100vw;
