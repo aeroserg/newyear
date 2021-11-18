@@ -46,6 +46,8 @@ gsap.defaults({ease: "none", duration: 2});
    .to(".deer", {xPercent: 100})
    .fromTo(".txt13", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
    .fromTo(".txt15", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
+   .to(".santa", {xPercent: 20})
+   .to(".snowman", {xPercent: -15})
    .to(".tree", {xPercent: -40})
    .fromTo(".tree", {autoAlpha: 0}, {autoAlpha: 1.5, duration: 0.5})
    .fromTo(".txt16", {autoAlpha: 0}, {autoAlpha: 1, duration: 0.5})
