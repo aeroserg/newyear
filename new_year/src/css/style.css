@@ -147,19 +147,20 @@ form {
 .chapter_header_1 img {  
     width: 18vw;
     position: absolute;
-    top: 50px;
+    top: 0%;
     left: 66%;
 }
 
 .chapter_header_2 img {  
     width: 18vw;
     position: absolute;
-    top: 6%;
+    top: -6%;
     right: 53%;
 }
 .chapter_header_2_2 img{  
     position: absolute;
-    right: 2%px;
+    right: 15%;
+    top: -18%;
     width: 18vw;
 }
 
@@ -178,7 +179,7 @@ form {
 .deer {
     width: 30%;
     position: absolute;
-    top: 24vh;
+    top: 15vh;
     right: 0;
     z-index: 6;
 }
@@ -192,18 +193,7 @@ form {
 
 }
 
-#Candy{
-    cursor: pointer;
-}
-
-
-#Candy{
-    cursor: pointer;
-}
-#Pryanik {
-    cursor: pointer;
-}
-#Ball {
+#ornament image {
     cursor: pointer;
 }
 .motnya {
@@ -332,7 +322,6 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       text-align: center;
                       display: flex;
                       justify-content: center;
-                      
                   }
                   .form_input {
                       height: 30px;
@@ -400,13 +389,13 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       width: 43vh;
                       position: absolute;
                       top: 55vh;
-                      left: -130px;
+                      left: -140px;
                   }
                   .santa {
                       width: 30vh;
                       position: absolute;
                       top:50vh;
-                      right: -90px;
+                      right: -100px;
                   }
                   .deer {
                       width: 80%;
@@ -423,8 +412,9 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       z-index: 7;
                       left: 46vw;
                   }
-          
-          
+                  #ornament image {
+                    cursor: pointer;
+                }
                   body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                   .b-page__content{min-height:200px}
                   .b-head-decor{display:none}
