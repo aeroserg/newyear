@@ -68,7 +68,7 @@ ScrollTrigger.create({
   animation: tl,
   trigger: ".main_story",
   start: "top top",
-  end: "+=9000",
+  end: "+=19000",
   scrub: true,
   pin: true,
   anticipatePin: 1
