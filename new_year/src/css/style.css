@@ -365,7 +365,47 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                   .ancor_logo {
                       width: 65%;
                   }
-                  
+                  .down_sign {
+                    width: 20px;
+                    height: auto;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+                .main_story {
+                    z-index: 2;
+                    width: 100%;
+                    height: auto;
+                    position: absolute;
+                    top: 100vh;
+                    left: 0;
+                    overflow: hidden;
+                }
+                .chapter_1 {
+                    height: 100vh;
+                    background-color: transparent;
+                    z-index: 3;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    width: 50%;
+                
+                }
+                
+                .chapter_2 {
+                    height: 100vh;
+                    background-color: transparent;
+                    z-index: 3;
+                    position: inherit;
+                    top: 0;
+                    right: 0;
+                    width: 50%;
+                
+                }
+                .chapter_3 {
+                    width: 100%;
+                    text-align: center;
+                }
+                
                   .chapter_header_1 img {  
                       width: 60vw;
                       position: absolute;
@@ -373,7 +413,7 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       left: 5%;
                       
                   }
-          
+            
                   .chapter_header_2 img {  
                       width: 60vw;
                       position: absolute;
