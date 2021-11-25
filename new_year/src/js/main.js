@@ -73,3 +73,11 @@ ScrollTrigger.create({
   pin: true,
   anticipatePin: 1
 })
+
+gsap.registerPlugin(ScrollToPlugin);
+
+document.querySelectorAll("button").forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    gsap.to(window, {duration: 1, scrollTo:{y:"#id1" + (index + 1), offsetY:70}});
+  });
+});
