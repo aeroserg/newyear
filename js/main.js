@@ -1,9 +1,19 @@
 const tm = gsap.timeline();
-tm.fromTo("h1", {autoAlpha: 0}, {autoAlpha: 1, duration: 2})
-  .fromTo("h2", {autoAlpha: 0}, {autoAlpha: 1, duration: 1})
-  .fromTo("form", {autoAlpha: 0}, {autoAlpha: 1, duration: 1});
+tm.fromTo("h1", {autoAlpha: 0}, {autoAlpha: 1, duration: 1})
+  .fromTo("h2", {autoAlpha: 0}, {autoAlpha: 1, duration: .5})
+  .fromTo("form", {autoAlpha: 0}, {autoAlpha: 1, duration: .5});
 
 gsap.registerPlugin(ScrollTrigger);
+
+
+
+$(function(){
+	$('.scroll_bottom').click(function(){
+		$('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 10);
+		return false;
+	});
+});
+
 
 gsap.defaults({ease: "none", duration: 2});
 
@@ -45,8 +55,8 @@ gsap.defaults({ease: "none", duration: 2});
    .fromTo(".txt12", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
    .fromTo(".txt14", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
    .fromTo(".txt14", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
-   .to(".santa", {xPercent: 20})
-   .to(".snowman", {xPercent: -15})
+   .to("#id2", {xPercent: 15})
+   .to("#id1", {xPercent: -15})
    .to(".tree", {xPercent: -40})
    .fromTo(".tree", {autoAlpha: 0}, {autoAlpha: 1.5, duration: 0.5})
    .fromTo(".txt15", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5}) 
@@ -58,7 +68,7 @@ gsap.defaults({ease: "none", duration: 2});
    .fromTo(".txt17", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
    .to(".deer", {xPercent: 100})
    .fromTo(".txt18", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
-   .to(".deer", {xPercent: 0})
+   .to(".deer", {xPercent: 0, yPercent: -24})
    .fromTo(".txt19", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5})
 
    
@@ -122,3 +132,11 @@ $('#bar').buttonAudioPlayer({
 	loopStart: 1,
 	loopEnd: 10000,
   });
+
+
+$(function(){
+	$('#scroll_bottom').click(function(){
+		$('html, body').animate({scrollTop: $(document).height() - $(window).height()}, 600);
+		return false;
+	});
+});
