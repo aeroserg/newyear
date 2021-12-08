@@ -57,7 +57,7 @@ gsap.defaults({ease: "none", duration: 2});
    .fromTo(".txt14", {autoAlpha: 2}, {autoAlpha: 0, duration: 0.5})
    .to("#id2", {xPercent: 15})
    .to("#id1", {xPercent: -15})
-   .to(".tree", {xPercent: -40})
+   .to(".tree", {xPercent: -45})
    .fromTo(".tree", {autoAlpha: 0}, {autoAlpha: 1.5, duration: 0.5})
    .fromTo(".txt15", {autoAlpha: 0}, {autoAlpha: 2, duration: 0.5}) 
    .fromTo(".txt16", {autoAlpha: 0}, {autoAlpha: 1, duration: 0.5})

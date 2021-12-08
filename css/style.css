@@ -22,8 +22,18 @@ body {
 }
 #bar{
 	position: fixed;
-    top: 100px;
+    top: 15%;
+    left: 1%;
     z-index: 9998;
+}
+.scroll_bottom {
+    position: fixed;
+    left: 1%;
+    top: 25%;
+    z-index: 9999;
+    height: 50px;
+    width: 50px;
+
 }
 .tech_email {
     position: fixed;
@@ -141,21 +151,7 @@ form {
     margin-top: 40px;
     z-index: 1;
 }
-#bottom_anchor {
-    z-index: 10;
-}
-.scroll_bottom {
-	font-weight: 900;
-    z-index: 100;
-    background-color: #fff;
-    padding: 1%;
-    border-radius: 1px;
-    text-decoration: none;
-    font-family: Geometrica;
-    position: absolute;
-    top:85vh;
-    left: 46vw;
-}
+
 .down_sign {
     width: 20px;
     height: auto;
