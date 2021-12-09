@@ -56,26 +56,13 @@ body {
     cursor: pointer;
 
 }
-.tech_email {
-    position: fixed;
-    left: 2%;
-    bottom: 5%;
-    font-family: Geometrica;
-    font-size: 74%;
-    color: rgba(211, 211, 211, 0.692);
-    z-index: 10;
-    width: 10%;
-    text-align: left;
-}
 .tech_email_link {
-    text-decoration: underline;
-    font-family: Geometrica;
-    color: rgb(209, 43, 14);
-    font-weight: 900;
-}
-.tech_email_link:hover {
-    color:seagreen;
-    transition-duration: 1s;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 13%;
+    left: 4%;
+    z-index: 101;
 }
 .intro {
     height: 100vh;
@@ -396,6 +383,9 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       color: rgb(255, 255, 255);
                       font-weight: 100;
                   }
+                  .ancor_logo {
+                    width: 65%;
+                }
                   form {
                       margin-top: 6vh;
                       text-align: center;
@@ -675,8 +665,11 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                                 z-index: 0;
                                 background-color: rgba(0, 0, 0, 0.4);
                             }
+                            .ancor_logo {
+                                width: 65%;
+                            }
                             .intro_h1 {
-                                font-family: 'Noto Serif Display', serif;
+                                font-family:'Geometrica';
                                 color: #fff;
                                 z-index: 4;
                                 position: relative;
@@ -689,7 +682,7 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                             h2 {
                                 display: block;
                                 text-align: center;
-                                font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-family:'Geometrica';
                                 font-size: 5vw;
                                 margin:0 auto;
                                 max-width: 1000px;
@@ -979,7 +972,7 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                                                 background-color: rgba(0, 0, 0, 0.4);
                                             }
                                             .intro_h1 {
-                                                font-family: 'Noto Serif Display', serif;
+                                                font-family:'Geometrica';
                                                 color: #fff;
                                                 z-index: 4;
                                                 position: relative;
@@ -988,11 +981,14 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                                                 font-size: 6vw;
                                                 z-index: 3;
                                                 width: 55%;
-                                            }   
+                                            }  
+                                            .ancor_logo {
+                                                width: 65%;
+                                            } 
                                             h2 {
                                                 display: block;
                                                 text-align: center;
-                                                font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                                font-family:'Geometrica';
                                                 font-size: 5vw;
                                                 margin:0 auto;
                                                 max-width: 1000px;
@@ -1045,27 +1041,9 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                                                 margin-top: 60%;
                                                 z-index: 1;
                                             }
-                                            .tech_email {
-                                                position: fixed;
-                                                left: 2%;
-                                                bottom: 1%;
-                                                font-family: Geometrica;
-                                                font-size: 74%;
-                                                color: rgba(105, 153, 216, 0.692);
-                                                z-index: 10;
-                                                width: 100%;
-                                                text-align: center;
-                                            }
-                                            .tech_email_link {
-                                                text-decoration: underline;
-                                                font-family: Geometrica;
-                                                color: rgb(209, 43, 14);
-                                                font-weight: 900;
-                                            }
-                                            .tech_email_link:hover {
-                                                color:seagreen;
-                                                transition-duration: 1s;
-                                            }
+                                            
+                                            c
+                                            
                                               .scroll_bottom {
                                                 font-weight: 900;
                                                 z-index: 100;
