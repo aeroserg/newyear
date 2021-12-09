@@ -26,13 +26,34 @@ body {
     left: 1%;
     z-index: 9998;
 }
-.scroll_bottom {
+.scroll_prev {
     position: fixed;
     left: 1%;
     top: 25%;
     z-index: 9999;
     height: 50px;
     width: 50px;
+    cursor: pointer;
+
+}
+.scroll_bottom {
+    position: fixed;
+    left: 5%;
+    top: 25%;
+    z-index: 9999;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.scroll_next {
+    position: fixed;
+    left: 9%;
+    top: 25%;
+    z-index: 9999;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
 
 }
 .tech_email {
@@ -83,7 +104,7 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 .intro_h1 {
-    font-family:Geometrica;
+    font-family:'Geometrica';
     color: #fff;
     z-index: 4;
     position: relative;
@@ -205,21 +226,16 @@ form {
 .chapter_header_2 img {  
     width: 18vw;
     position: absolute;
-    top: -6%;
+    top: 3vh;
     right: 64%;
 }
 .chapter_header_2_2 img{  
     position: absolute;
-    right: 15%;
-    top: -18%;
+    right: 30%;
+    top: -15vh;
     width: 18vw;
 }
-#bingo_ru {
-    position: absolute;
-    top: 10%;
-    left: -10%;
-    width: 6vw;
-}
+
 .snowman {
     width: 45vh;
     position: absolute;
@@ -227,9 +243,9 @@ form {
     left: 10vw;
 }
 .santa {
-    width: 63vh;
+    width: 60vh;
     position: absolute;
-    top:26vh;
+    top:31vh;
     right: 10vw;
 }
 .deer {
@@ -241,11 +257,11 @@ form {
 }
 
 .tree {
-    width: 28vw;
+    width: 25vw;
     position: absolute;
-    bottom:-4%;
+    bottom:-4vh;
     z-index: 7;
-    left: 50%;
+    left: 48%;
 
 }
 
@@ -359,8 +375,8 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                       background-color: rgba(0, 0, 0, 0.4);
                   }
                   .intro_h1 {
-                      font-family: 'Noto Serif Display', serif;
-                      color: #fff;
+                    font-family:'Geometrica';
+                    color: #fff;
                       z-index: 4;
                       position: relative;
                       margin:0 auto;
@@ -372,7 +388,7 @@ body{position:relative;z-index:0;margin:0;padding:0 0 1em 0;text-align:center;}
                   h2 {
                       display: block;
                       text-align: center;
-                      font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                      font-family:'Geometrica';
                       font-size: 5vw;
                       margin:0 auto;
                       max-width: 1000px;
